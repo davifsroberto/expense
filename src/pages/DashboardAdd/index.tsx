@@ -8,24 +8,26 @@ import {
   TemplateMainHeroSection,
 } from "../../components/templates";
 
-export const Login = () => {
+export const DashboardAdd = () => {
   return (
     <TemplateContainer>
       <TemplateContent className="grid h-full w-full  max-w-screen-lg grid-cols-2">
         <SidebarHero />
 
         <TemplateMainHeroSection>
-          <h2 className="text-3xl font-bold">Manage Your Spending</h2>
+          <h2 className="text-3xl font-bold">Add new expense</h2>
 
           <form className="flex w-full max-w-xs flex-col gap-4">
-            <InputText label="Mail" type="email" />
+            <InputText label="Expense" type="text" />
 
-            <InputText label="Password" type="password" />
+            <InputText label="Categoty" type="text" />
 
-            <Button>Sing Up</Button>
+            <InputText label="Value" type="number" />
+
+            <Button>Add</Button>
           </form>
 
-          <Link href="/register">Sing Up</Link>
+          <Link href="/dashboard">Back</Link>
         </TemplateMainHeroSection>
       </TemplateContent>
     </TemplateContainer>

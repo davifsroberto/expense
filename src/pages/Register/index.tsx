@@ -8,14 +8,14 @@ import {
   TemplateMainHeroSection,
 } from "../../components/templates";
 
-export const Login = () => {
+export const Register = () => {
   return (
     <TemplateContainer>
       <TemplateContent className="grid h-full w-full  max-w-screen-lg grid-cols-2">
         <SidebarHero />
 
         <TemplateMainHeroSection>
-          <h2 className="text-3xl font-bold">Manage Your Spending</h2>
+          <h2 className="text-3xl font-bold">Create Account</h2>
 
           <form className="flex w-full max-w-xs flex-col gap-4">
             <InputText label="Mail" type="email" />
@@ -25,7 +25,7 @@ export const Login = () => {
             <Button>Sing Up</Button>
           </form>
 
-          <Link href="/register">Sing Up</Link>
+          <Link href="/">Haven an account</Link>
         </TemplateMainHeroSection>
       </TemplateContent>
     </TemplateContainer>
