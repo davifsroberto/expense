@@ -1,14 +1,14 @@
 module.exports = {
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
+    './src/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
-    extend: {},
+    extend: {}
   },
   variants: {
-    extend: { backgroundColor: ["disabled"], cursor: ["disabled"] },
+    extend: { backgroundColor: ['disabled'], cursor: ['disabled'] }
   },
-  plugins: [],
-};
+  plugins: []
+}

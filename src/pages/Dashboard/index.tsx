@@ -1,20 +1,20 @@
-import Router from "next/router";
+import Router from 'next/router'
 
-import { TemplateContainer } from "../../components/templates";
-import { Button } from "../../components/atoms/Button";
-import { Card } from "./Card";
+import { TemplateContainer } from '../../components/templates'
+import { Button } from '../../components/atoms/Button'
+import { Card } from './Card'
 
 export const Dashboard = () => {
   const expense = [
-    { id: "0", title: "Netflix", category: "streamming", cost: 39.99 },
-    { id: "1", title: "Amazon", category: "streamming", cost: 9.99 },
-    { id: "2", title: "Internet", category: "web", cost: 79.99 },
-    { id: "3", title: "Spotify", category: "streamming", cost: 9.99 },
-  ];
+    { id: '0', title: 'Netflix', category: 'streamming', cost: 39.99 },
+    { id: '1', title: 'Amazon', category: 'streamming', cost: 9.99 },
+    { id: '2', title: 'Internet', category: 'web', cost: 79.99 },
+    { id: '3', title: 'Spotify', category: 'streamming', cost: 9.99 }
+  ]
 
   const handleNavigateToAddNewExpense = () => {
-    Router.push("/dashboard/add");
-  };
+    Router.push('/dashboard/add')
+  }
 
   return (
     <TemplateContainer>
@@ -40,5 +40,5 @@ export const Dashboard = () => {
         ))}
       </article>
     </TemplateContainer>
-  );
-};
+  )
+}

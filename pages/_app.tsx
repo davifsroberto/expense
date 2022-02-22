@@ -1,8 +1,8 @@
-import { ThemeProvider } from "styled-components";
+import { ThemeProvider } from 'styled-components'
 
-import { GlobalStyle } from "../styles/globalStyle";
-import { Theme } from "../styles/theme";
-import "../styles/globals.css";
+import { GlobalStyle } from '../styles/globalStyle'
+import { Theme } from '../styles/theme'
+import '../styles/globals.css'
 
 export default function App({ Component, pageProps }) {
   return (
@@ -12,5 +12,5 @@ export default function App({ Component, pageProps }) {
         <Component {...pageProps} />
       </ThemeProvider>
     </>
-  );
+  )
 }

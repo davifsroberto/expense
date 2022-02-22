@@ -1,7 +1,7 @@
-import { DashboardAdd } from "../../../src/pages/DashboardAdd";
+import { DashboardAdd } from '../../../src/pages/DashboardAdd'
 
 const index = () => {
-  return <DashboardAdd />;
-};
+  return <DashboardAdd />
+}
 
-export default index;
+export default index

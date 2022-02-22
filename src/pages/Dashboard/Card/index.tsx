@@ -1,4 +1,4 @@
-import { Button } from "../../../components/atoms/Button";
+import { Button } from '../../../components/atoms/Button'
 
 export const Card = ({ title, category, cost }) => {
   return (
@@ -15,5 +15,5 @@ export const Card = ({ title, category, cost }) => {
         <Button variant="ghost">Remove</Button>
       </footer>
     </section>
-  );
-};
+  )
+}

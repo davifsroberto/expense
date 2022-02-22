@@ -3,5 +3,5 @@ export const SidebarHero = () => {
     <aside className="flex">
       <img src="/hero-image.svg" alt="Login Expense" />
     </aside>
-  );
-};
+  )
+}

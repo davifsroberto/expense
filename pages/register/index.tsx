@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react'
 
-import { Register } from "../../src/pages/Register";
+import { Register } from '../../src/pages/Register'
 
 const index = () => {
-  return <Register />;
-};
+  return <Register />
+}
 
-export default index;
+export default index

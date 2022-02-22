@@ -4,7 +4,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "pretty": "prettier --write \"./**/*.{ts,js,tsx,json,css,css,html}\""
+    "pretty": "prettier --config ./.prettierrc --write \"./**/*.{ts,js,tsx,json,css,css,html}\""
   },
   "dependencies": {
     "next": "latest",

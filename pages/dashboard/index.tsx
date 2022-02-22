@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react'
 
-import { Dashboard } from "../../src/pages/Dashboard";
+import { Dashboard } from '../../src/pages/Dashboard'
 
 const index = () => {
-  return <Dashboard />;
-};
+  return <Dashboard />
+}
 
-export default index;
+export default index

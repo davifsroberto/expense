@@ -1,12 +1,12 @@
-import { Button } from "../../components/atoms/Button";
-import { InputText } from "../../components/molecules/InputText";
-import { Link } from "../../components/molecules/Link";
-import { SidebarHero } from "../../components/organism/SidebarHero";
+import { Button } from '../../components/atoms/Button'
+import { InputText } from '../../components/molecules/InputText'
+import { Link } from '../../components/molecules/Link'
+import { SidebarHero } from '../../components/organism/SidebarHero'
 import {
   TemplateContainer,
   TemplateContent,
-  TemplateMainHeroSection,
-} from "../../components/templates";
+  TemplateMainHeroSection
+} from '../../components/templates'
 
 export const DashboardAdd = () => {
   return (
@@ -31,5 +31,5 @@ export const DashboardAdd = () => {
         </TemplateMainHeroSection>
       </TemplateContent>
     </TemplateContainer>
-  );
-};
+  )
+}

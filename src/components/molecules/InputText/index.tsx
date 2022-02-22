@@ -1,7 +1,7 @@
-import { InputHTMLAttributes } from "react";
+import { InputHTMLAttributes } from 'react'
 
 interface Props extends InputHTMLAttributes<HTMLInputElement> {
-  label: string;
+  label: string
 }
 
 export const InputText = ({ label, ...props }: Props) => {
@@ -14,5 +14,5 @@ export const InputText = ({ label, ...props }: Props) => {
         className="h-10 border border-gray-200 px-4"
       />
     </label>
-  );
-};
+  )
+}
